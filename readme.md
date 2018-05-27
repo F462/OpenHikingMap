@@ -4,7 +4,7 @@
 [Style rules][1] and [TYP definitions][2] for making a
 hiking map from [OpenStreetMap](http://www.openstreetmap.org/) data
 for a [Garmin GPS][3] using [mkgmap][4].
-The cartography is mainly adopted from [OpenTopoMap][12].
+The cartography is mainly adopted from [OpenTopoMap][5].
 
 This project currently only offers a style, you have to render your maps on your own.
 If you are interested in pre-rendered maps, let me know it.
@@ -17,7 +17,7 @@ The following steps describe how to get a Garmin map from OSM data using this st
 
 ## Fetching the data
 You need to download OSM data somehow.
-This can be done by several methods, including [download servers][10] or direct download from the [OSM page][11].
+This can be done by several methods, including [download servers][6] or direct download from the [OSM page][7].
 
 ## Rendering the map
 Build the TYP file from `hiking_typdef.txt` with [mkgmap][4] by using (expecting the parent directory as working directory):
@@ -30,17 +30,13 @@ Then build the map file using mkgmap:
 
 For large areas you'll need to use a splitter.
 
-Licensed under [CC BY][9].
+Licensed under [CC-BY-NC-SA][8].
 
 [1]: http://wiki.openstreetmap.org/wiki/Mkgmap/help/style_rules
 [2]: http://wiki.openstreetmap.org/wiki/Mkgmap/help/TYP_files
 [3]: http://www.garmin.com/us/products/onthetrail
 [4]: http://www.mkgmap.org.uk/
-[5]: http://www.kartverket.no/globalassets/standard/bransjestandarder-utover-sosi/symbol.pdf
-  "Symbolfonter for friluftsliv og sport (1997). Statens kartverk Landkartdivisjonen, ISBN 82-90408-52-8"
-[6]: http://www.cgpsmapper.com/
-[8]: http://no.wikipedia.org/wiki/Marka_(Oslo)
-[9]: http://creativecommons.org/licenses/by/4.0/
-[10]: https://download.geofabrik.de/
-[11]: https://www.openstreetmap.org/export
-[12]: https://www.opentopomap.org/
+[5]: https://www.opentopomap.org/
+[6]: https://download.geofabrik.de/
+[7]: https://www.openstreetmap.org/export
+[8]: https://creativecommons.org/licenses/by-nc-sa/4.0/
