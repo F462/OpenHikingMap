@@ -20,13 +20,13 @@ You need to download OSM data somehow.
 This can be done by several methods, including [download servers][6] or direct download from the [OSM page][7].
 
 ## Rendering the map
-Build the TYP file from `hiking_typdef.txt` with [mkgmap][4] by using (expecting the parent directory as working directory):
+Build the TYP file from `OpenHikingMap.txt` with [mkgmap][4] by using (expecting the parent directory as working directory):
 
-	mkgmap hiking_typdef.txt
+	mkgmap OpenHikingMap.txt
 
 Then build the map file using mkgmap:
 
-	mkgmap -c OpenHikingMap/arguments --style-file=OpenHikingMap hiking_typdef.typ all/osm/data/*.osm
+	mkgmap -c OpenHikingMap/arguments --style-file=OpenHikingMap OpenHikingMap.typ all/osm/data/*.osm
 
 For large areas you'll need to use a splitter.
 
